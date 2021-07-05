@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace EventsandDelegates
 {
-   public  class MailService
+   public class MessageService
     {
         public void OnVideoEncoded(object source, EventArgs e)
         {
-            Console.WriteLine("MailService: Sending an Email...");
+            Console.WriteLine("MessageService: Sending a Text Message");
         }
     }
 }
