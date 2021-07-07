@@ -15,6 +15,7 @@ namespace EventsandDelegates
 
         public delegate void VideoEncoderEventHandler(Object source, EventArgs args);
 
+        // Raising the Event
         public event VideoEncoderEventHandler VideoEncoded;
 
 
